@@ -1,13 +1,16 @@
 .header{
+
     display: flex;
     justify-content: center;
+
     &__row{
         padding: 35px 190px;
         display: flex;
         justify-content:space-around;
     }
     &__logo{
-     padding: 0 510px 0 10px;
+       padding: 0 510px 0 10px;
+
       }
 
       
@@ -16,7 +19,6 @@
 
 
   .nav{
-
     display: flex;
     align-items: center;
   
