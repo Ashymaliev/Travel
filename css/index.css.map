@@ -1,0 +1,12 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../scss/index.scss",
+        "../scss/components/_base.scss",
+        "../scss/components/_header.scss",
+        "../scss/components/_hero.scss"
+    ],
+    "names": [],
+    "file": "index.css"
+}
