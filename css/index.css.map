@@ -1,0 +1,12 @@
+{
+    "version": 3,
+    "mappings": "AAAA,OAAO,CAAC,yFAAI;AACZ,OAAO,CAAC,+GAAI;AACZ,OAAO,CAAC,6HAAI",
+    "sources": [
+        "../scss/index.scss",
+        "../scss/_base.scss",
+        "../scss/_columns.scss",
+        "../scss/_veriables.scss"
+    ],
+    "names": [],
+    "file": "index.css"
+}
