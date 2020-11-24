@@ -1,0 +1,93 @@
+.destinations{
+
+    &__top{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__title{
+
+        font-family: Playfair Display;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 50px;
+
+    }
+
+    &__element{
+        padding: 0 0 80px 450px;
+    }
+
+    &__link{
+        padding-right: 50px;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 17px;
+        line-height: 60px;
+        color: $color-orange;
+     
+        &:hover{
+            color:  #ff8706;
+            font-size: 19px;
+            transition: 0.3s;
+        }
+
+        &::after{
+            content:'';
+            background-image: url(/image/after.svg);
+        }
+    }
+
+    &__row{
+        position: relative;
+        padding: 50px 0 230px 0;
+        display: flex;
+    }
+
+    &__content{
+        position: relative;
+    }
+
+    &__image{
+      
+        border-radius: 8px;
+    }
+
+    &__location{
+        position: absolute;
+        background-color: white;
+        bottom: 1%;
+        padding: 10px 22px 0 0;
+        border-radius: 0 8px 0 0;
+
+    }
+
+    &__place{
+        font-family: $font-inter;
+        color: #042521;
+        font-weight: 600;
+        font-size: 17px;
+        
+
+    }
+
+    &__country{
+
+        font-family: $font-Mulish;
+        color: $color-spaceGray;
+        font-weight: 300;
+        font-size: 17px;
+        line-height: 1.5;
+    }
+
+    &__element--plus{
+        position: absolute;
+        z-index: 1;
+        bottom: 60%;
+        left: -15%;
+
+    }
+}
