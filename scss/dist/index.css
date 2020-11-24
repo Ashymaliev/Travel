@@ -22,21 +22,21 @@ span {
   cursor: pointer;
 }
 
+.header {
+  height: 80%;
+}
 .header__row {
   padding: 35px 0;
   display: flex;
   justify-content: space-between;
 }
-
 .nav {
   display: flex;
   align-items: center;
 }
-
 .nav__menu {
   display: flex;
 }
-
 .nav__links {
   display: flex;
   padding-right: 35px;
@@ -45,18 +45,14 @@ span {
   font-size: 16px;
   line-height: 19px;
 }
-
 .nav__links:hover {
   color: #202336;
   font-size: 17px;
-  font-weight: 600;
-  font-size: 16px;
 }
 
 .nav__buttons {
   display: flex;
 }
-
 .nav__buttons .btn--orange {
   border-radius: 8px;
   margin-right: 18px;
@@ -69,7 +65,6 @@ span {
   color: #ffff;
   background-color: #FB8F1D;
 }
-
 .nav__buttons .btn--orange:hover {
   background-color: #ffff;
   color: #FB8F1D;
@@ -81,12 +76,9 @@ span {
 .hero__row {
   display: flex;
 }
-
 .hero__item {
   position: relative;
-  padding-top: 20px;
 }
-
 .hero__title {
   font-family: font-playfair;
   color: #202336;
@@ -94,7 +86,6 @@ span {
   font-size: 64px;
   line-height: 1.5;
 }
-
 .hero__subtitle {
   display: inline-block;
   margin-bottom: 50px;
@@ -106,7 +97,6 @@ span {
   font-size: 22px;
   line-height: 27px;
 }
-
 .hero__subtitle::before {
   content: "";
   position: absolute;
@@ -116,20 +106,14 @@ span {
   border-radius: 4px;
   bottom: -50%;
 }
-
-.hero__element--left {
+.hero__element {
   position: absolute;
   left: -15%;
+  bottom: 10px;
 }
-
-.hero__element--bottom {
-  padding: 100px 0 0 550px;
-}
-
 .hero__selector {
   padding-bottom: 50px;
 }
-
 .hero__selector--select {
   border: 0.8px solid #AFB0B9;
   box-sizing: border-box;
@@ -138,15 +122,12 @@ span {
   height: 52px;
   outline: none;
 }
-
 .hero__selector--select:nth-child(2) {
   margin: 0 0 35px 30px;
 }
-
 .hero__selector--select:nth-child(4) {
   margin: 0 0 0px 30px;
 }
-
 .hero .btn--orange {
   margin-top: 50px;
   border-radius: 8px;
@@ -159,17 +140,12 @@ span {
   color: #ffff;
   background-color: #FB8F1D;
 }
-
 .hero .btn--orange:hover {
   background-color: #ffff;
   color: #FB8F1D;
   border: 1px solid #FB8F1D;
   box-sizing: border-box;
   border-radius: 8px;
-}
-
-.hero__image {
-  padding-top: 35px;
 }
 
 .col-3 {
@@ -191,4 +167,3 @@ span {
 .col-7 {
   width: 58.33%;
 }
-/*# sourceMappingURL=index.css.map */
