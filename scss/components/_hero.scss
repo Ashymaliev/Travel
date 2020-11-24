@@ -2,6 +2,7 @@
     
     &__row{
         display: flex;
+        padding-bottom: 260px;
     }
 
     &__item{
@@ -47,7 +48,7 @@
     }
 
     &__element--bottom{
-        padding: 100px 0 0 550px;
+        padding: 60px 0 0 550px;
     }
 
     &__selector{
@@ -71,25 +72,9 @@
 
     }
 
-    .btn--orange{
-        margin-top: 50px;
-        border-radius: 8px;
-        margin-right: 18px;
-        padding:12px 50px ;
-        font-family: Inter;
-        font-weight: 500;
-        font-size: 15px;
-        line-height: 1.5;
-        color: $color-white;
-        background-color: $color-orange;
-        
-        &:hover{
-            background-color: $color-white;
-            color: $color-orange;
-            border: 1px solid #FB8F1D;
-            box-sizing: border-box;
-            border-radius: 8px;
-        }
+    .button{
+        margin-top: 50px; 
+    
     }
 
     &__image{

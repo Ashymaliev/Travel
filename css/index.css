@@ -22,6 +22,26 @@ span {
   cursor: pointer;
 }
 
+.btn--orange {
+  border-radius: 8px;
+  margin-right: 18px;
+  padding: 10px 40px;
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #ffff;
+  background-color: #FB8F1D;
+}
+
+.btn--orange:hover {
+  background-color: #ffff;
+  color: #FB8F1D;
+  border: 1px solid #FB8F1D;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+
 .header__row {
   padding: 35px 0;
   display: flex;
@@ -58,28 +78,12 @@ span {
 }
 
 .nav__buttons .btn--orange {
-  border-radius: 8px;
-  margin-right: 18px;
   padding: 8px 36px;
-  font-family: Inter;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 15px;
-  line-height: 1.5;
-  color: #ffff;
-  background-color: #FB8F1D;
-}
-
-.nav__buttons .btn--orange:hover {
-  background-color: #ffff;
-  color: #FB8F1D;
-  border: 1px solid #FB8F1D;
-  box-sizing: border-box;
-  border-radius: 8px;
 }
 
 .hero__row {
   display: flex;
+  padding-bottom: 260px;
 }
 
 .hero__item {
@@ -123,7 +127,7 @@ span {
 }
 
 .hero__element--bottom {
-  padding: 100px 0 0 550px;
+  padding: 60px 0 0 550px;
 }
 
 .hero__selector {
@@ -147,25 +151,8 @@ span {
   margin: 0 0 0px 30px;
 }
 
-.hero .btn--orange {
+.hero .button {
   margin-top: 50px;
-  border-radius: 8px;
-  margin-right: 18px;
-  padding: 12px 50px;
-  font-family: Inter;
-  font-weight: 500;
-  font-size: 15px;
-  line-height: 1.5;
-  color: #ffff;
-  background-color: #FB8F1D;
-}
-
-.hero .btn--orange:hover {
-  background-color: #ffff;
-  color: #FB8F1D;
-  border: 1px solid #FB8F1D;
-  box-sizing: border-box;
-  border-radius: 8px;
 }
 
 .hero__image {
@@ -190,5 +177,39 @@ span {
 
 .col-7 {
   width: 58.33%;
+}
+
+.explore__row {
+  display: flex;
+}
+
+.explore__item {
+  max-width: 450px;
+  padding: 50px 0 0 100px;
+}
+
+.explore__title {
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 50px;
+}
+
+.explore__text {
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 30px;
+  color: #7D7987;
+}
+
+.explore__button {
+  margin-top: 38px;
+}
+
+.explore__element {
+  padding: 0 0 20px 320px;
 }
 /*# sourceMappingURL=index.css.map */

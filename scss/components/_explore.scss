@@ -1,0 +1,38 @@
+.explore{
+
+    &__row{
+        display: flex;
+    }
+
+    &__item{
+        max-width: 450px;
+        padding: 50px 0 0 100px;
+    }
+
+    &__title{
+
+        font-family: Playfair Display;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 50px;
+    }
+
+    &__text{
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 17px;
+        line-height: 30px;
+        color: $color-spaceGray;
+    }
+
+    &__button{
+        margin-top: 38px;
+
+    }
+
+    &__element{
+        padding: 0 0 20px 320px;
+    }
+}
