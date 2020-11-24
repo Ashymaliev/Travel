@@ -81,3 +81,19 @@
         padding-top: 35px;
     }
 }
+
+@media screen and (max-width:1024px){
+	
+	.hero{
+
+        &__item{
+            text-align: center;
+        }
+
+        &__title{
+            font-size: 48px;
+        }
+    }
+
+}
+
