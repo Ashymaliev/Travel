@@ -122,4 +122,8 @@
   font-size: 18px;
   line-height: 48px;
 }
+
+.reviews__hero {
+  position: relative;
+}
 /*# sourceMappingURL=index.css.map */
