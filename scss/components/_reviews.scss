@@ -1,0 +1,51 @@
+
+.reviews{
+    margin-right: 30px;
+    padding: 250px;
+    &__row{
+        display: flex;
+    }
+    &__item{
+        padding-bottom: 60px;
+        font-family: Playfair Display;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 50px;
+    }
+    &__link{
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 36px;
+        padding: 30px 0 40px;
+        width: 400px;
+    }
+    &__edward{
+        font-family: Playfair Display;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 50px;
+    }
+    &__founder{
+       font-family: Inter;
+       font-style: normal;
+       font-weight: normal;
+       font-size: 18px;
+       line-height: 48px;
+    }
+    // &__img{
+    //     background-image: url(/img/travel-man.png);
+    //     position: absolute;
+    //     width: 384px;
+    //     height: 490px;
+    //     border-radius: 14px;
+    //     box-shadow: rgb(0, 0, 0);
+    //     margin-left: 60px;
+    // }
+    &__hero{
+        position: relative;
+    }
+}
