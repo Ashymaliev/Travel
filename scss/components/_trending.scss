@@ -22,26 +22,25 @@
     &__viewall{
         position: absolute;
         font-family: Inter;
-        font-style: normal;
         font-weight: 600;
-        font-size: 34px;
+        font-size: 30px;
         line-height: 60px;
-        padding-left: 78%;
+        padding-left: 88%;
         color: #000000;
         &:hover{
             color: $color-orange;
-            font-size: 40px;
+            font-size: 33px;
             transition: 0.3s;
         }
     }
     &__images{
-        width: 100%;
-        border-radius: 30px;
-        height: 320px;
+        width: 280px;
+        border-radius: 10px 10px 0 0;
+        height: 280px;
     }
     &__title{
-        width: 260px;
-        height: 330px;
+        width: 280px;
+
     }
     &__suptitle{
         font-family: Inter;

@@ -24,8 +24,11 @@ span, p {
 }
 
 .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .btn--orange {
@@ -44,7 +47,8 @@ span, p {
   background-color: #ffff;
   color: #FB8F1D;
   border: 1px solid #FB8F1D;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   border-radius: 8px;
 }
 
@@ -61,20 +65,32 @@ span, p {
 
 .header__row {
   padding: 35px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .nav__menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
 .nav__links {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   padding-right: 35px;
   color: #848484;
@@ -91,6 +107,8 @@ span, p {
 }
 
 .nav__buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
@@ -99,6 +117,8 @@ span, p {
 }
 
 .hero__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   padding-bottom: 260px;
 }
@@ -148,8 +168,11 @@ span, p {
 }
 
 .hero__tour {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   padding-bottom: 25px;
 }
 
@@ -166,7 +189,8 @@ span, p {
   background: #4A4C53;
   top: 50%;
   right: 16%;
-  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
 }
 
 .hero__select::after {
@@ -177,18 +201,22 @@ span, p {
   background: #4A4C53;
   top: 50%;
   right: 13%;
-  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+          transform: rotate(135deg);
 }
 
 .hero__selector {
   padding: 0 30px;
   border: 0.8px solid #AFB0B9;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   border-radius: 6px;
   width: 220px;
   height: 52px;
   outline: none;
-  appearance: none;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
   font-family: "inter";
   font-size: 15px;
   color: #313235;
@@ -242,6 +270,8 @@ span, p {
 }
 
 .explore__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
@@ -267,9 +297,15 @@ span, p {
 }
 
 .destinations__top {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .destinations__title {
@@ -298,6 +334,7 @@ span, p {
 .destinations__link:hover {
   color: #ff8706;
   font-size: 19px;
+  -webkit-transition: 0.3s;
   transition: 0.3s;
 }
 
@@ -310,6 +347,8 @@ span, p {
 .destinations__row {
   position: relative;
   padding: 50px 0 230px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
@@ -351,12 +390,10 @@ span, p {
   left: -15%;
 }
 
-.guides {
-  margin-left: 30px;
-}
-
 .guides__row {
   padding: 50px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
@@ -385,31 +422,27 @@ span, p {
 }
 
 .reviews {
-  margin-right: 30px;
   padding: 250px 0;
 }
 
 .reviews__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
 .reviews__item {
-  padding-bottom: 60px;
+  padding-bottom: 140px;
   font-family: Playfair Display;
-  font-style: normal;
   font-weight: bold;
-  font-size: 36px;
-  line-height: 50px;
+  font-size: 50px;
 }
 
 .reviews__link {
   font-family: Mulish;
-  font-style: normal;
-  font-weight: normal;
   font-size: 24px;
   line-height: 36px;
-  padding: 30px 0 40px;
-  width: 400px;
+  padding: 30px 0 0 0;
 }
 
 .reviews__edward {
@@ -444,7 +477,8 @@ span, p {
   top: 471px;
   right: 430px;
   width: 34px;
-  transform: rotate(-11deg);
+  -webkit-transform: rotate(-11deg);
+          transform: rotate(-11deg);
   z-index: 1;
 }
 
@@ -461,7 +495,13 @@ span, p {
   margin-left: 150px;
 }
 
+.reviews__title {
+  padding: 100px 0 100px 0;
+}
+
 .trending__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
@@ -471,6 +511,8 @@ span, p {
 
 .trending__top {
   width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   position: relative;
 }
@@ -488,29 +530,28 @@ span, p {
 .trending__viewall {
   position: absolute;
   font-family: Inter;
-  font-style: normal;
   font-weight: 600;
-  font-size: 34px;
+  font-size: 30px;
   line-height: 60px;
-  padding-left: 78%;
+  padding-left: 88%;
   color: #000000;
 }
 
 .trending__viewall:hover {
   color: #FB8F1D;
-  font-size: 40px;
+  font-size: 33px;
+  -webkit-transition: 0.3s;
   transition: 0.3s;
 }
 
 .trending__images {
-  width: 100%;
-  border-radius: 30px;
-  height: 320px;
+  width: 280px;
+  border-radius: 10px 10px 0 0;
+  height: 280px;
 }
 
 .trending__title {
-  width: 260px;
-  height: 330px;
+  width: 280px;
 }
 
 .trending__suptitle {
@@ -544,6 +585,7 @@ span, p {
   color: #FB8F1D;
   font-size: 20px;
   margin: -10px;
+  -webkit-transition: 0.3s;
   transition: 0.3s;
 }
 
@@ -552,11 +594,13 @@ span, p {
 }
 
 .footer__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
 .footer__description {
-  padding: 80px 0 70px;
+  padding: 50px 0 70px;
 }
 
 .footer__title {
@@ -565,13 +609,15 @@ span, p {
   font-weight: 300;
   font-size: 18px;
   line-height: 28px;
-  width: 380px;
-  height: 80px;
-  padding: 50px 0 150px;
+  padding: 30px 0;
+}
+
+.footer__item {
+  font-family: Mulish;
 }
 
 .footer__suptitle {
-  padding: 150px 0 0 115px;
+  padding: 80px 0 0 115px;
 }
 
 .footer__subtitle {
@@ -588,6 +634,8 @@ span, p {
   font-weight: 300;
   font-size: 18px;
   line-height: 38px;
+  padding: 0;
+  margin: 0;
 }
 
 .footer__string {
@@ -595,9 +643,15 @@ span, p {
 }
 
 .footer__bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   padding: 100px 0;
   background-color: #F9F9FB;
 }
