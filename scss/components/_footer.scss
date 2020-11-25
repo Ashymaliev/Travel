@@ -1,0 +1,56 @@
+.footer{
+    background-color:  #F9F9FB;
+    &__row{
+        display: flex;
+    }
+    &__description{
+        padding: 80px 0 70px;
+    }
+    &__title{
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 28px;
+        width: 380px;
+        height: 80px;
+        padding: 50px 0 150px;
+    }
+    &__suptitle{
+        padding: 150px 0 0 115px;
+    }
+    &__subtitle{
+
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 19px;
+        line-height: 60px;
+    }
+    &__list{
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 38px;
+    }
+    &__string{
+        color: #848484;
+    }
+    &__bottom{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 100px 0;
+        background-color: #F9F9FB;
+    }
+    &__imeges{
+        margin: 0 120px 0 0;
+    }
+    &__del{
+        margin: 70px 0 0 0;
+        width: 100%;
+        height: 2px;
+        background-color:#848484;
+    }
+}
