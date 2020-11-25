@@ -1,7 +1,7 @@
 
 .reviews{
     margin-right: 30px;
-    padding: 250px;
+    padding: 250px 0;
     &__row{
         display: flex;
     }
@@ -36,16 +36,30 @@
        font-size: 18px;
        line-height: 48px;
     }
-    // &__img{
-    //     background-image: url(/img/travel-man.png);
-    //     position: absolute;
-    //     width: 384px;
-    //     height: 490px;
-    //     border-radius: 14px;
-    //     box-shadow: rgb(0, 0, 0);
-    //     margin-left: 60px;
-    // }
-    &__hero{
+    &__img{
         position: relative;
+    }
+    &__icon1{
+        width: 30px;
+        position: absolute;
+        top: -9px;
+        right: 59px;
+    }
+    &__icon2{
+        position: absolute;
+        top: 471px;
+        right: 430px;
+        width: 34px;
+        transform: rotate(-11deg);
+        z-index: 1;
+    }
+    &__image{
+        width: 380px;
+        height: 490px;
+        border-radius: 14px;
+        position: absolute;
+    }
+    &__img--man{
+        margin-left: 150px;
     }
 }

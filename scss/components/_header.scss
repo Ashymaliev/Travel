@@ -1,71 +1,62 @@
-.header{
+.header {
+  display: flex;
+  justify-content: center;
 
+  &__row {
+    padding: 35px 190px;
     display: flex;
-    justify-content: center;
-
-    &__row{
-        padding: 35px 190px;
-        display: flex;
-        justify-content:space-around;
-    }
-    &__logo{
-       padding: 0 510px 0 10px;
-
-      }
-
-      
-   
+    justify-content: space-around;
   }
-
-
-  .nav{
-    display: flex;
-    align-items: center;
-  
-     &__menu{
-         display: flex;
-        
-     }
-    &__links{
-        display: flex;
-        padding-right: 35px;
-        color: $color-whiteGray;
-
-        font-family: Inter;
-   
-        font-size: 16px;
-        line-height: 19px;
-
-        &:hover{
-            color: $color-darkGray;
-            font-size: 17px;
-        }
-    }
+  &__logo {
+    padding: 0 510px 0 10px;
+  }
 }
 
-    .nav__buttons{
-         display: flex;
+.nav {
+  display: flex;
+  align-items: center;
 
-        .btn--orange{
-        border-radius: 8px;
-        margin-right: 18px;
-        padding:8px 36px ;
-        font-family: Inter;
-        font-style: normal;
-        font-weight: 500;
-        font-size: 15px;
-        line-height: 1.5;
-        color: $color-white;
-        background-color: $color-orange;
-        
-        &:hover{
-            background-color: $color-white;
-            color: $color-orange;
-            border: 1px solid #FB8F1D;
-            box-sizing: border-box;
-            border-radius: 8px;
+  &__menu {
+    display: flex;
+  }
+  &__links {
+    display: flex;
+    padding-right: 35px;
+    color: $color-whiteGray;
 
-        }
-        }
+    font-family: Inter;
+
+    font-size: 16px;
+    line-height: 19px;
+
+    &:hover {
+      color: $color-darkGray;
+      font-size: 17px;
     }
-  
+  }
+}
+
+.nav__buttons {
+  display: flex;
+
+  .btn--orange {
+    border-radius: 8px;
+    margin-right: 18px;
+    padding: 8px 36px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 1.5;
+    color: $color-white;
+    background-color: $color-orange;
+
+    &:hover {
+      background-color: $color-white;
+      color: $color-orange;
+      border: 1px solid #fb8f1d;
+      box-sizing: border-box;
+      border-radius: 8px;
+    }
+  }
+}

@@ -1,0 +1,76 @@
+.trending{
+    &__row{
+        display: flex;
+    }
+    &__stories{
+        margin: 0 20px 0 0;
+    }
+    &__top{
+        width: 100%;
+        display: flex;
+        position: relative;
+    }
+    &__item{
+        font-family: Playfair Display;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 50px;
+        color: #000000;
+        padding-bottom: 45px;
+    }
+    &__viewall{
+        position: absolute;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 34px;
+        line-height: 60px;
+        padding-left: 78%;
+        color: #000000;
+        &:hover{
+            color: $color-orange;
+            font-size: 40px;
+            transition: 0.3s;
+        }
+    }
+    &__images{
+        width: 100%;
+        border-radius: 30px;
+        height: 320px;
+    }
+    &__title{
+        width: 260px;
+        height: 330px;
+    }
+    &__suptitle{
+        font-family: Inter;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 19px;
+        line-height: 30px;
+    }
+    &__subtitle{
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 26px;
+        padding: 15px 0 40px;
+        color: #7D7987;
+    }
+    &__surtitle{
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 28px;
+        color: #7D7987;
+        &:hover{
+            color: #FB8F1D;
+            font-size: 20px;
+            margin: -10px;
+            transition: 0.3s;
+        }
+    }
+}
