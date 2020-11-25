@@ -9,21 +9,22 @@
 <body>
     <header class="header">
         <div class="container">
-            <div class="header__nav">
+            <div class="header__row">
                 <div class="header__logo">
                     <img src="./image/logo.svg" alt="logo">
                 </div>
-    
-                <nav class="nav__menu">
-                    <ul>
-                        <li>Home</li>
-                        <li>Destinations</li>
-                        <li>About</li>
-                        <li>Partner</li>
+
+
+                <nav class="header__nav nav">
+                    <ul class="nav__menu">
+                        <li class="nav__item"><a class="nav__links" href="">Home</a> </li>
+                        <li class="nav__item"><a class="nav__links" href="">Destinations</a> </li>
+                        <li class="nav__item"><a class="nav__links" href="">About</a> </li>
+                        <li class="nav__item"><a class="nav__links" href="">Partner</a> </li>
                     </ul>
-                    <div class="nav__button">
-                        <button class="btn__white">Login</button>
-                        <button class="btn__oranfe">Register</button>
+                    <div class="nav__buttons">
+                        <a class="btn--orange">Login</a>
+                        <a class="btn--orange">Register</a>
                     </div>
                 </nav>
             </div>
@@ -80,13 +81,151 @@
                     </div>
                 </div>
                 <div class="col-6">
-                    <div class="reviews__hero">
-                         <img src="./img/element1.svg" alt="" class="reviews__icon">
-                         <img src="./img/travel-man.png" alt="" class="reviews__icon">
+                    <div class="reviews__img">
+                        <img class="reviews__icon1" src="./img/element1.svg" alt="">
+                        <img class="reviews__icon2" src="./img/element2.svg" alt="">
+                    </div>
+                    <div class="reviews__img--man">
+                        <img class="reviews__image"  src="./img/travel-man.png" alt="">
                     </div>
                 </div>
             </div>
         </div>
     </section>
+    <section class="trending">
+        <div class="container">
+          <div class="trending__top">
+            <h2 class="trending__item">Trending stories</h2>
+            <a class="trending__viewall" href="#">View all</a>
+          </div>
+            <div class="trending__row">
+                <div class="col-3">
+                  <div class="trending__stories">
+                    <img class="trending__images" src="./img/trending-img1.png" alt="">
+                    <div class="trending__title">
+                        <h3 class="trending__suptitle">The many benefits of
+                            taking a healing holiday</h3>
+                        <div class="trending__subtitle">
+                            <span>‘Helaing holidays’ are on the rise tohelp maximise your health and happines...</span>
+                        </div>
+                        <div class="trending__sudtitle">
+                            <a class="trending__surtitle">Read more</a>
+                        </div>
+                     </div>
+                    </div>
+                 </div>
+                <div class="col-3">
+                    <div class="trending__stories">
+                        <img class="trending__images" src="./img/trending-img2.png" alt="">
+                        <div class="trending__title">
+                            <h3 class="trending__suptitle">The many benefits of
+                                taking a healing holiday</h3>
+                            <div class="trending__subtitle">
+                                <span>‘Helaing holidays’ are on the rise tohelp maximise your health and happines...</span>
+                            </div>
+                            <div class="trending__sudtitle">
+                                <a class="trending__surtitle">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="trending__stories">
+                        <img class="trending__images" src="./img/trending-img3.png" alt="">
+                        <div class="trending__title">
+                            <h3 class="trending__suptitle">The many benefits of
+                                taking a healing holiday</h3>
+                            <div class="trending__subtitle">
+                                <span>‘Helaing holidays’ are on the rise tohelp maximise your health and happines...</span>
+                            </div>
+                            <div class="trending__sudtitle">
+                                <a class="trending__surtitle">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="trending__stories">
+                        <img class="trending__images" src="./img/trending-img4.png" alt="">
+                        <div class="trending__title">
+                            <h3 class="trending__suptitle">The many benefits of
+                                taking a healing holiday</h3>
+                            <div class="trending__subtitle">
+                                <span>‘Helaing holidays’ are on the rise tohelp maximise your health and happines...</span>
+                            </div>
+                            <div class="trending__sudtitle">
+                                <a class="trending__surtitle">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+         <div class="footer__top">
+            <div class="footer__row">
+                <div class="col-4">
+                    <div class="footer__description">
+                        <img src="./img/footer.svg" alt="" class="info__logo">
+                        <div class="footer__title">
+                            <h4>Plan and book your perfect trip with
+                                expert advice, travel tips destination
+                                information from us</h4>
+                        </div>
+                        <div class="footer__item">
+                            <span>©2020 Thousand Sunny. All rights reserved</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="footer__suptitle">
+                        <h5 class="footer__subtitle">Destinations</h5>
+                        <ul class="footer__list">
+                            <li><a class="footer__string" href="">Africa</a></li>
+                            <li><a class="footer__string" href="">SAntarctica</a></li>
+                            <li><a class="footer__string" href="">Asia</a></li>
+                            <li><a class="footer__string" href="">Europe</a></li>
+                            <li><a class="footer__string" href="">America</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="footer__suptitle">
+                        <h5 class="footer__subtitle">Shop</h5>
+                        <ul class="footer__list">
+                            <li><a class="footer__string" href="">Destination Guides</a></li>
+                            <li><a class="footer__string" href="">ictorial & Gifts</a></li>
+                            <li><a class="footer__string" href="">Special Offers</a></li>
+                            <li><a class="footer__string" href="">Delivery Times</a></li>
+                            <li><a class="footer__string" href="">PFAQs</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="footer__suptitle">
+                        <h5 class="footer__subtitle">Services</h5>
+                        <ul class="footer__list">
+                            <li><a class="footer__string" href="">Adventure Travel</a></li>
+                            <li><a class="footer__string" href="">Art And Culture</a></li>
+                            <li><a class="footer__string" href="">Wildlife And Nature</a></li>
+                            <li><a class="footer__string" href="">Family Holidays</a></li>
+                            <li><a class="footer__string" href="">Food And Drink</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+         </div>
+         <div class="footer__del"></div>
+            <div class="footer__bottom">
+                <img src="./img/footer-element2.svg" alt="" class="footer__imeges">
+                <img src="./img/footer-element3.svg" alt="" class="footer__imeges">
+                <img src="./img/footer-element4.svg" alt="" class="footer__imeges">
+                <img src="./img/footer-element5.svg" alt="" class="footer__imeges">
+                <img src="./img/footer-element6.svg" alt="" class="footer__imeges">
+            </div>
+        </div>
+    </footer>
 </body>
 

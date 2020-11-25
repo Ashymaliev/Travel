@@ -4,10 +4,12 @@
 
 
 @import "./base";
+@import './components/variables';
 @import "./columns";
 @import "./veriables";
-@import "./components/guides";
-@import "./components/reviews";
-@import './components/base';
 @import './components/header';
 @import './components/hero';
+@import "./components/guides";
+@import "./components/reviews";
+@import "./components/trending";
+@import "./components/footer"
