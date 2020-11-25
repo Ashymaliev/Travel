@@ -1,52 +1,56 @@
 .reviews{
-    margin-right: 30px;
-    padding: 250px 0;
-    &__row{
-        display: flex;
-    }
-    &__item{
-        padding-bottom: 60px;
+    padding: 260px 0;
+      
+    &__title{
+        padding-bottom: 150px;
         font-family: Playfair Display;
         font-style: normal;
         font-weight: bold;
         font-size: 36px;
         line-height: 50px;
     }
-    &__link{
+    &__text{
         font-family: Mulish;
         font-style: normal;
         font-weight: normal;
         font-size: 24px;
         line-height: 36px;
         padding: 30px 0 40px;
-        width: 400px;
+       
+       
     }
     &__edward{
-        font-family: Playfair Display;
-        font-style: normal;
+        font-family: Inter;
         font-weight: bold;
-        font-size: 36px;
-        line-height: 50px;
+        font-size: 22px;
+        line-height: 48px;
     }
     &__founder{
        font-family: Inter;
-       font-style: normal;
        font-weight: normal;
        font-size: 18px;
-       line-height: 48px;
+       color: rgba(0, 0, 0, 0.85);
+       mix-blend-mode: normal;
     }
     &__img{
-        position: relative;
+         position: relative;
+        padding-top: 100px;
+        
     }
+
+    &__star{
+      padding-right: 15px;
+    }
+
     &__icon1{
-        width: 30px;
+        width: 35px;
         position: absolute;
-        top: -9px;
-        right: 59px;
+        top: 85%;
+        right: 8%;
     }
     &__icon2{
         position: absolute;
-        top: 471px;
+        top: 571px;
         right: 430px;
         width: 34px;
         transform: rotate(-11deg);
@@ -59,8 +63,7 @@
         position: absolute;
     }
     &__img--man{
-        width: 380px;
-        height: 490px;
-        margin-left: 150px;
+       padding-left: 150px;
+       position: relative;
     }
 }

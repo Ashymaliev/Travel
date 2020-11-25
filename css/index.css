@@ -7,7 +7,7 @@ li {
   list-style: none;
 }
 
-a {
+a, span, p {
   text-decoration: none;
   cursor: pointer;
   margin: 0;
@@ -16,10 +16,6 @@ a {
 
 h1, h2, h3, h4, h5, h6 {
   margin: 0;
-  cursor: pointer;
-}
-
-span, p {
   cursor: pointer;
 }
 
@@ -57,6 +53,46 @@ span, p {
   color: #7D7987;
   max-width: 450px;
   padding: 20px 0 35px;
+}
+
+.item {
+  max-width: 450px;
+}
+
+.view {
+  position: relative;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 60px;
+  color: #FB8F1D;
+}
+
+.view::before {
+  content: '';
+  position: absolute;
+  width: 9px;
+  border: 1px solid #FB8F1D;
+  top: 44%;
+  right: -30%;
+  transform: rotate(210deg);
+}
+
+.view::after {
+  content: '';
+  position: absolute;
+  width: 9px;
+  border: 1px solid #FB8F1D;
+  top: 53%;
+  right: -30%;
+  transform: rotate(-25deg);
+}
+
+.view:hover {
+  color: #ff8706;
+  font-size: 20px;
+  transition: 0.3s;
 }
 
 .header__row {
@@ -258,10 +294,6 @@ span, p {
   line-height: 50px;
 }
 
-.explore__button {
-  margin-top: 38px;
-}
-
 .explore__element {
   padding: 0 0 20px 320px;
 }
@@ -282,29 +314,6 @@ span, p {
 
 .destinations__element {
   padding: 0 0 80px 450px;
-}
-
-.destinations__link {
-  position: relative;
-  padding-right: 50px;
-  font-family: Inter;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 17px;
-  line-height: 60px;
-  color: #FB8F1D;
-}
-
-.destinations__link:hover {
-  color: #ff8706;
-  font-size: 19px;
-  transition: 0.3s;
-}
-
-.destinations__link::after {
-  position: absolute;
-  content: '';
-  background-image: url(/image/after.svg);
 }
 
 .destinations__row {
@@ -373,7 +382,8 @@ span, p {
 }
 
 .guides__item {
-  padding: 60px 0;
+  max-width: 450px;
+  padding-top: 160px;
 }
 
 .guides__title {
@@ -385,16 +395,11 @@ span, p {
 }
 
 .reviews {
-  margin-right: 30px;
-  padding: 250px 0;
+  padding: 260px 0;
 }
 
-.reviews__row {
-  display: flex;
-}
-
-.reviews__item {
-  padding-bottom: 60px;
+.reviews__title {
+  padding-bottom: 150px;
   font-family: Playfair Display;
   font-style: normal;
   font-weight: bold;
@@ -402,46 +407,49 @@ span, p {
   line-height: 50px;
 }
 
-.reviews__link {
+.reviews__text {
   font-family: Mulish;
   font-style: normal;
   font-weight: normal;
   font-size: 24px;
   line-height: 36px;
   padding: 30px 0 40px;
-  width: 400px;
 }
 
 .reviews__edward {
-  font-family: Playfair Display;
-  font-style: normal;
+  font-family: Inter;
   font-weight: bold;
-  font-size: 36px;
-  line-height: 50px;
+  font-size: 22px;
+  line-height: 48px;
 }
 
 .reviews__founder {
   font-family: Inter;
-  font-style: normal;
   font-weight: normal;
   font-size: 18px;
-  line-height: 48px;
+  color: rgba(0, 0, 0, 0.85);
+  mix-blend-mode: normal;
 }
 
 .reviews__img {
   position: relative;
+  padding-top: 100px;
+}
+
+.reviews__star {
+  padding-right: 15px;
 }
 
 .reviews__icon1 {
-  width: 30px;
+  width: 35px;
   position: absolute;
-  top: -9px;
-  right: 59px;
+  top: 85%;
+  right: 8%;
 }
 
 .reviews__icon2 {
   position: absolute;
-  top: 471px;
+  top: 571px;
   right: 430px;
   width: 34px;
   transform: rotate(-11deg);
@@ -456,13 +464,8 @@ span, p {
 }
 
 .reviews__img--man {
-  width: 380px;
-  height: 490px;
-  margin-left: 150px;
-}
-
-.trending__row {
-  display: flex;
+  padding-left: 150px;
+  position: relative;
 }
 
 .trending__stories {
@@ -470,12 +473,12 @@ span, p {
 }
 
 .trending__top {
-  width: 100%;
   display: flex;
-  position: relative;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.trending__item {
+.trending__title {
   font-family: Playfair Display;
   font-style: normal;
   font-weight: bold;
@@ -485,32 +488,14 @@ span, p {
   padding-bottom: 45px;
 }
 
-.trending__viewall {
-  position: absolute;
-  font-family: Inter;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 34px;
-  line-height: 60px;
-  padding-left: 78%;
-  color: #000000;
-}
-
-.trending__viewall:hover {
-  color: #FB8F1D;
-  font-size: 40px;
-  transition: 0.3s;
-}
-
 .trending__images {
-  width: 100%;
-  border-radius: 30px;
-  height: 320px;
+  border-radius: 10px 10px 0 0;
+  height: 280px;
+  width: 280px;
 }
 
-.trending__title {
-  width: 260px;
-  height: 330px;
+.trending__item {
+  max-width: 260px;
 }
 
 .trending__suptitle {
@@ -521,29 +506,28 @@ span, p {
   line-height: 30px;
 }
 
-.trending__subtitle {
+.trending__text {
   font-family: Inter;
   font-style: normal;
   font-weight: normal;
   font-size: 15px;
   line-height: 26px;
-  padding: 15px 0 40px;
+  padding: 15px 0 0px;
   color: #7D7987;
 }
 
-.trending__surtitle {
+.trending__link {
   font-family: Inter;
   font-style: normal;
   font-weight: 600;
-  font-size: 15px;
-  line-height: 28px;
-  color: #7D7987;
+  font-size: 18px;
+  line-height: 60px;
+  color: #FB8F1D;
 }
 
-.trending__surtitle:hover {
-  color: #FB8F1D;
+.trending__link:hover {
+  color: #ff8706;
   font-size: 20px;
-  margin: -10px;
   transition: 0.3s;
 }
 
@@ -556,7 +540,7 @@ span, p {
 }
 
 .footer__description {
-  padding: 80px 0 70px;
+  padding: 50px 0 70px;
 }
 
 .footer__title {
@@ -565,13 +549,15 @@ span, p {
   font-weight: 300;
   font-size: 18px;
   line-height: 28px;
-  width: 380px;
-  height: 80px;
-  padding: 50px 0 150px;
+  padding: 30px 0;
+}
+
+.footer__item {
+  font-family: Mulish;
 }
 
 .footer__suptitle {
-  padding: 150px 0 0 115px;
+  padding: 80px 0 0 115px;
 }
 
 .footer__subtitle {
@@ -588,6 +574,8 @@ span, p {
   font-weight: 300;
   font-size: 18px;
   line-height: 38px;
+  padding: 0;
+  margin: 0;
 }
 
 .footer__string {

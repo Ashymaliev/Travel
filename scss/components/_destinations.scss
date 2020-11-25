@@ -20,28 +20,28 @@
         padding: 0 0 80px 450px;
     }
 
-    &__link{
-        position: relative;
-        padding-right: 50px;
-        font-family: Inter;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 17px;
-        line-height: 60px;
-        color: $color-orange;
+    // &__link{
+    //     position: relative;
+    //     padding-right: 50px;
+    //     font-family: Inter;
+    //     font-style: normal;
+    //     font-weight: 600;
+    //     font-size: 17px;
+    //     line-height: 60px;
+    //     color: $color-orange;
      
-        &:hover{
-            color:  #ff8706;
-            font-size: 19px;
-            transition: 0.3s;
-        }
+    //     &:hover{
+    //         color:  #ff8706;
+    //         font-size: 19px;
+    //         transition: 0.3s;
+    //     }
 
-        &::after{
-            position: absolute;
-            content:'';
-            background-image: url(/image/after.svg);
-        }
-    }
+    //     &::after{
+    //         position: absolute;
+    //         content:'';
+    //         background-image: url(/image/after.svg);
+    //     }
+    // }
 
     &__row{
         position: relative;
