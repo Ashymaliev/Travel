@@ -136,25 +136,51 @@ span, p {
   padding: 60px 0 0 550px;
 }
 
-.hero__selector {
-  padding-bottom: 50px;
+.hero__tour {
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 25px;
 }
 
-.hero__selector--select {
+.hero__select {
+  position: relative;
+  margin: 0 30px 35px 0;
+}
+
+.hero__select::before {
+  content: '';
+  position: absolute;
+  width: 9.5px;
+  height: 2px;
+  background: #4A4C53;
+  top: 50%;
+  right: 16%;
+  transform: rotate(45deg);
+}
+
+.hero__select::after {
+  content: '';
+  position: absolute;
+  width: 9.5px;
+  height: 2px;
+  background: #4A4C53;
+  top: 50%;
+  right: 13%;
+  transform: rotate(135deg);
+}
+
+.hero__selector {
+  padding: 0 30px;
   border: 0.8px solid #AFB0B9;
   box-sizing: border-box;
   border-radius: 6px;
   width: 220px;
   height: 52px;
   outline: none;
-}
-
-.hero__selector--select:nth-child(2) {
-  margin: 0 0 35px 30px;
-}
-
-.hero__selector--select:nth-child(4) {
-  margin: 0 0 0px 30px;
+  appearance: none;
+  font-family: "inter";
+  font-size: 15px;
+  color: #313235;
 }
 
 .hero .button {
