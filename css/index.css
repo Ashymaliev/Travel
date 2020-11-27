@@ -41,6 +41,7 @@ span, p {
   line-height: 1.5;
   color: #ffff;
   background-color: #FB8F1D;
+  border: none;
 }
 
 .btn--orange:hover {
@@ -61,6 +62,54 @@ span, p {
   color: #7D7987;
   max-width: 450px;
   padding: 20px 0 35px;
+}
+
+.guides__search {
+  width: 80px;
+  height: 80px;
+  top: 80px;
+  position: absolute;
+  background: #FB8F1D;
+  border-radius: 50%;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.guides__search:nth-child(1) {
+  left: -20px;
+  -webkit-transition-delay: .1s;
+          transition-delay: .1s;
+}
+
+.guides__search:nth-child(2) {
+  left: 30px;
+  -webkit-transition-delay: .3s;
+          transition-delay: .3s;
+}
+
+.guides__search:nth-child(3) {
+  left: 80px;
+  -webkit-transition-delay: .5s;
+          transition-delay: .5s;
+}
+
+.guides__search:nth-child(4) {
+  left: 125px;
+  -webkit-transition-delay: .7s;
+          transition-delay: .7s;
+}
+
+.guides__btn--title:hover {
+  position: absolute;
+  z-index: 333333300000000;
+  color: #000;
+  -webkit-transition-delay: .5s;
+          transition-delay: .5s;
+  margin: 0 auto;
+}
+
+p:hover span {
+  top: -10px;
 }
 
 .header__row {
@@ -421,6 +470,23 @@ span, p {
   line-height: 50px;
 }
 
+.guides__btn {
+  width: 160px;
+  height: 40px;
+  border: 1px solid #FB8F1D;
+  border-radius: 16px;
+  color: #ffea00;
+  cursor: pointer;
+  position: relative;
+}
+
+.guides__btn--title {
+  font-family: inter;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 0 30px;
+}
+
 .reviews {
   padding: 250px 0;
 }
@@ -461,42 +527,39 @@ span, p {
   line-height: 48px;
 }
 
-.reviews__img {
+.reviews__img--icon {
   position: relative;
 }
 
 .reviews__icon1 {
-  width: 30px;
+  width: 50px;
+  height: 50px;
   position: absolute;
-  top: -10px;
-  right: 59px;
+  top: -11px;
+  right: -11px;
 }
 
 .reviews__icon2 {
   position: absolute;
-  top: 471px;
-  right: 431px;
-  width: 34px;
-  -webkit-transform: rotate(-11deg);
-          transform: rotate(-11deg);
+  top: 522px;
+  width: 50px;
+  left: 138px;
+  -webkit-transform: rotate(-13deg);
+          transform: rotate(-13deg);
   z-index: 1;
 }
 
-.reviews__image {
-  width: 380px;
-  height: 490px;
-  border-radius: 14px;
-  position: absolute;
-}
-
 .reviews__img--man {
-  width: 380px;
-  height: 490px;
   margin-left: 150px;
 }
 
 .reviews__title {
   padding: 100px 0 100px 0;
+}
+
+.reviews__images {
+  border-radius: 40px 40px 0 20px;
+  padding: 0 10px;
 }
 
 .trending {

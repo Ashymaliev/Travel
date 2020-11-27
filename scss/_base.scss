@@ -41,7 +41,7 @@ span,p {
     line-height: 1.5;
     color: $color-white;
     background-color: $color-orange;
-    
+    border: none;
     &:hover{
         background-color: $color-white;
         color: $color-orange;
@@ -61,3 +61,43 @@ span,p {
         padding: 20px 0 35px;
     }
 
+
+ .guides__search{
+	width: 80px;
+	height: 80px;
+	top: 80px;
+	position: absolute;
+	background: #FB8F1D;
+	border-radius: 50%;
+	transition: 1s;
+}
+
+
+    .guides__search:nth-child(1){
+	left: -20px;
+	transition-delay: .1s;
+}
+.guides__search:nth-child(2){
+	left: 30px;
+	transition-delay: .3s;
+}
+.guides__search:nth-child(3){
+	left: 80px;
+	transition-delay: .5s;
+}
+.guides__search:nth-child(4){
+	left: 125px;
+	transition-delay: .7s;
+}
+
+.guides__btn--title:hover {
+	position: absolute;
+	z-index: 333333300000000;
+	color: #000;
+	transition-delay: .5s;
+	margin: 0 auto;
+}
+
+p:hover span{
+    top: -10px;
+}

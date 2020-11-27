@@ -14,6 +14,7 @@
         href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Mulish:wght@300&family=Playfair+Display:wght@700&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/slick.css">
     <title>Travel</title>
 </head>
 
@@ -201,7 +202,11 @@
                     <p class="text--gray">Packed with tips and advice from our on-the-ground experts, 
                      our city guides app (iOS and Android) is the ultimate resource before and during a trip.</p>
                     <div class="guides__btn">
-                        <a class="btn--orange">Download</a>
+                        <span class="guides__search"></span>
+                        <span class="guides__search"></span>
+                        <span class="guides__search"></span>
+                        <span class="guides__search"></span>
+                        <p class="guides__btn--title">Download</p>
                     </div>
 
                      <img src="./image/element2.svg" alt="" class="guides__icon2">
@@ -238,13 +243,16 @@
                     </div>
                 </div>
                 <div class="col-6">
-                        <div class="reviews__img">
+                        <div class="reviews__img--icon">
                             <img class="reviews__icon1" src="./image/element1.svg" alt="">
                             <img class="reviews__icon2" src="./image/element2.svg" alt="">
                         </div>
                       <div class="reviews__img--man">
                          <div class="reviews__slider">
-                            <img class="reviews__image" src="./image/travel-man.png" alt="">
+                                <img class="reviews__images" src="./image/travel-man.png" alt="">
+                                <img class="reviews__images" src="./image/travel-man.png" alt="">
+                                <img class="reviews__images" src="./image/travel-man.png" alt="">
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -386,6 +394,10 @@
             </div>
         </div>
     </footer>
+
+    <script src="./js/vendors/jquery-3.5.1.min.js"></script>
+    <script src="./js/vendors/slick.min.js"></script>
+    <script src="./js/index.js"></script>
 </body>
 
 </html>

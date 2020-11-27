@@ -18,16 +18,29 @@
         padding: 60px 0;
     }
     &__title{
-
         font-family: "Playfair Display";
         font-style: normal;
         font-weight: bold;
         font-size: 36px;
-        line-height: 50px;
-            
-    }
-       
-    
-    
+        line-height: 50px;     
+          }
 
-}
+        &__btn{
+          width: 160px;
+          height: 40px;
+          border: 1px solid #FB8F1D;
+        border-radius: 16px;
+        color: #ffea00;
+        cursor: pointer;
+        position: relative;
+        &--title{
+          font-family: inter;
+          	font-size: 20px;
+            font-weight: bold;
+            padding: 0 30px ;
+        }
+
+     }
+  }
+
+  

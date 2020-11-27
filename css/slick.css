@@ -1,0 +1,56 @@
+.reviews__slider{
+    position: relative;
+}
+.slick-list {
+    min-width: 380px;
+    overflow: hidden;
+}
+.slick-track{
+    min-width: 380px;
+}
+.slick-slide{
+    min-width: 380px;
+}
+.slick-slide.slick-current{
+    border: none;
+    outline: none;
+}
+.slick-slide.slick-center{
+    border: none;
+    outline: none;
+}
+.slick-arrow{
+    border: none;
+}
+.slick-arrow.slick-prev{
+    position: absolute;
+    bottom: 0;
+    right: -3px;
+    font-size: 0;
+    z-index: 1;
+    padding: 35px 35px;
+    border: none;
+    outline: none;
+    background-color: white;
+    background-image: url(../image/next.svg);
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position: 50% 50%;
+}
+
+.slick-next{
+    position: absolute;
+    bottom: 0;
+    right: 64px;
+    z-index: 1;
+    font-size: 0;
+    padding: 35px 35px;
+    border: none;
+    outline: none;
+    background-color: white;
+    border-radius: 20px 0 0 0;
+    background-image: url(../image/previous.svg);
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position: 50% 50%;
+}
