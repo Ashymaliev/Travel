@@ -41,6 +41,15 @@ padding: 0 0 260px 0;
        
 }
 
+@media screen and (max-width:768px){
+    .explore{
+        &__image{
+            width: 120%;
+            padding-top: 100px;
+        }
+    }
+}
+
 @media screen and (max-width:414px){
 
     .explore{

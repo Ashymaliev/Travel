@@ -74,6 +74,32 @@
 
 }
 
+@media screen and (max-width:768px){
+
+    .trending{
+        &__col-3{
+            width: 50%;
+        }
+
+        &__top{
+         padding: 0 50px 0 30px;
+        }
+
+        &__link{
+            padding-bottom: 30px;
+        }
+        &__stories{
+            max-width: 320px;
+            padding-left: 30px;
+        }
+
+        &__images{
+            max-width: 280px;
+            
+        }
+    }
+}
+
 
 @media screen and (max-width:414px){
 	
@@ -99,6 +125,12 @@
 
 @media screen and (max-width:320px){
     .trending{
-        
+        &__col-3{
+            width: 100%;
+        }
+
+        &__images{
+            max-width: 280px;
+        }
     }
 }

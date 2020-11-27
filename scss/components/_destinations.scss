@@ -90,6 +90,25 @@
     }
 }
 
+@media screen and (max-width:768px){
+
+    .destinations{
+        &__row{
+            padding-left: 80px;
+        }
+        &__element{
+            padding: 10px 10px;
+        }
+
+        &__col-3{
+            width: 50%;
+        }
+
+        &__image{
+            max-width: 270px;
+        }
+    }
+}
 
 @media screen and (max-width:414px){
     .destinations{

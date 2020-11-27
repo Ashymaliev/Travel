@@ -47,8 +47,8 @@
         padding: 100px 0;
         background-color: #F9F9FB;
     }
-    &__imeges{
-        margin: 0 120px 0 0;
+    &__images{
+        margin: 0 80px;
     }
     &__del{
         margin: 70px 0 0 0;
@@ -59,12 +59,37 @@
 }
 
 
+@media screen and (max-width:1024px){
+    .footer{    
+        &__images{
+            margin: 0 65px;
+        }
+    }
+}
 
+@media screen and (max-width:768px){
+    .footer{
+        &__suptitle{
+            padding: 10px 50px;
+        }
+
+        &__title{
+            text-align: center;
+        }
+
+        &__item{
+            text-align: center;
+        }
+    }
+}
 
 @media screen and (max-width:414px){
     .footer{
         &__suptitle{
             padding: 0;
+        }
+        &__images{
+            margin: 0 15px;
         }
     }
 }

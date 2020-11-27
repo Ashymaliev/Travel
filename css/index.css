@@ -402,6 +402,13 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+@media screen and (max-width: 768px) {
+  .explore__image {
+    width: 120%;
+    padding-top: 100px;
+  }
+}
+
 @media screen and (max-width: 414px) {
   .explore {
     padding: 10px 0;
@@ -488,6 +495,21 @@ h1, h2, h3, h4, h5, h6 {
   .destinations__location {
     font-size: 16px;
     padding-left: 5px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .destinations__row {
+    padding-left: 80px;
+  }
+  .destinations__element {
+    padding: 10px 10px;
+  }
+  .destinations__col-3 {
+    width: 50%;
+  }
+  .destinations__image {
+    max-width: 270px;
   }
 }
 
@@ -666,6 +688,13 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+@media screen and (max-width: 768px) {
+  .reviews__image {
+    max-width: 100%;
+    object-fit: cover;
+  }
+}
+
 @media screen and (max-width: 414px) {
   .reviews {
     padding: 100px 0;
@@ -679,6 +708,13 @@ h1, h2, h3, h4, h5, h6 {
   .reviews__image {
     max-width: 350px;
     max-height: 450px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .reviews__image {
+    max-width: 280px;
+    max-height: 400px;
   }
 }
 
@@ -751,6 +787,25 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+@media screen and (max-width: 768px) {
+  .trending__col-3 {
+    width: 50%;
+  }
+  .trending__top {
+    padding: 0 50px 0 30px;
+  }
+  .trending__link {
+    padding-bottom: 30px;
+  }
+  .trending__stories {
+    max-width: 320px;
+    padding-left: 30px;
+  }
+  .trending__images {
+    max-width: 280px;
+  }
+}
+
 @media screen and (max-width: 414px) {
   .trending__title {
     font-size: 26px;
@@ -764,6 +819,15 @@ h1, h2, h3, h4, h5, h6 {
   }
   .trending__images {
     max-width: 160px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .trending__col-3 {
+    width: 100%;
+  }
+  .trending__images {
+    max-width: 280px;
   }
 }
 
@@ -826,8 +890,8 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #F9F9FB;
 }
 
-.footer__imeges {
-  margin: 0 120px 0 0;
+.footer__images {
+  margin: 0 80px;
 }
 
 .footer__del {
@@ -837,9 +901,30 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #848484;
 }
 
+@media screen and (max-width: 1024px) {
+  .footer__images {
+    margin: 0 65px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footer__suptitle {
+    padding: 10px 50px;
+  }
+  .footer__title {
+    text-align: center;
+  }
+  .footer__item {
+    text-align: center;
+  }
+}
+
 @media screen and (max-width: 414px) {
   .footer__suptitle {
     padding: 0;
+  }
+  .footer__images {
+    margin: 0 15px;
   }
 }
 /*# sourceMappingURL=index.css.map */
