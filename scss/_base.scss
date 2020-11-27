@@ -45,6 +45,7 @@ h1, h2, h3, h4, h5, h6 {
         border: 1px solid #FB8F1D;
         box-sizing: border-box;
         border-radius: 8px;
+        transition: 0.5s;
     }
 }
     .text--gray{
@@ -96,7 +97,7 @@ h1, h2, h3, h4, h5, h6 {
         &:hover{
             color:  #ff8706;
             font-size: 20px;
-            transition: 0.3s;
+            transition: 0.5s;
         }
 
        
