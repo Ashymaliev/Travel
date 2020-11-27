@@ -95,6 +95,40 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.3s;
 }
 
+@media screen and (max-width: 1024px) {
+  body {
+    padding: 0 10px;
+  }
+  .view {
+    display: flex;
+  }
+  .view::before {
+    display: none;
+  }
+  .view::after {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 4145px) {
+  body {
+    padding: 0 10px;
+  }
+  .view {
+    line-height: 1;
+    display: flex;
+  }
+  .view::before {
+    display: none;
+  }
+  .view::after {
+    display: none;
+  }
+  .btn--orange {
+    padding: 8px 25px;
+  }
+}
+
 .header__row {
   padding: 35px 0;
   display: flex;
@@ -239,11 +273,63 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media screen and (max-width: 1024px) {
+  .hero__row {
+    padding-bottom: 150px;
+  }
+  .hero__tour {
+    justify-content: center;
+  }
+  .hero__selector {
+    width: 200px;
+    height: 45px;
+  }
   .hero__item {
     text-align: center;
   }
   .hero__title {
     font-size: 48px;
+  }
+  .hero__subtitle::before {
+    content: '';
+    left: 35%;
+  }
+  .hero__image {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .hero__row {
+    padding-bottom: 20px;
+  }
+  .hero__select {
+    margin: 0 15px 15px 0;
+  }
+  .hero__select::before {
+    width: 8.5px;
+  }
+  .hero__select::after {
+    width: 8.5px;
+  }
+  .hero__selector {
+    width: 150px;
+    height: 35px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .hero__select {
+    margin: 0 15px 15px 0;
+  }
+  .hero__select::before {
+    width: 5.5px;
+  }
+  .hero__select::after {
+    width: 5.5px;
+  }
+  .hero__selector {
+    width: 125px;
+    height: 30px;
   }
 }
 
@@ -268,8 +354,17 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media screen and (max-width: 1024px) {
-  .col-7, .col-6, .col-5, .col-4, .col-3, .col-2, .col-1 {
+  .col-7, .col-6, .col-5, .col-4 {
     width: 100%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .col-7, .col-6, .col-5, .col-4 {
+    width: 100%;
+  }
+  .col-3, .col-2 {
+    width: 50%;
   }
 }
 
@@ -298,6 +393,30 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0 0 20px 320px;
 }
 
+@media screen and (max-width: 1024px) {
+  .explore__image {
+    max-width: 520px;
+  }
+  .explore__col-6 {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .explore {
+    padding: 10px 0;
+  }
+  .explore__image {
+    max-width: 420px;
+  }
+  .explore__col-6 {
+    width: 100%;
+  }
+  .explore__item {
+    padding: 10px 10px;
+  }
+}
+
 .destinations__top {
   display: flex;
   align-items: center;
@@ -319,7 +438,6 @@ h1, h2, h3, h4, h5, h6 {
 .destinations__row {
   position: relative;
   padding: 50px 0 230px 0;
-  display: flex;
 }
 
 .destinations__content {
@@ -360,6 +478,57 @@ h1, h2, h3, h4, h5, h6 {
   left: -15%;
 }
 
+@media screen and (max-width: 1024px) {
+  .destinations__row {
+    padding: 50px 0 50px 0;
+  }
+  .destinations__image {
+    max-width: 240px;
+  }
+  .destinations__location {
+    font-size: 16px;
+    padding-left: 5px;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .destinations__title {
+    font-size: 26px;
+    line-height: 1.5;
+  }
+  .destinations__col-3 {
+    width: 50%;
+  }
+  .destinations__image {
+    max-width: 160px;
+  }
+  .destinations__place {
+    font-size: 14px;
+  }
+  .destinations__country {
+    font-size: 14px;
+    line-height: 0;
+  }
+  .destinations__element {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .destinations__col-3 {
+    width: 100%;
+  }
+  .destinations__image {
+    max-width: 300px;
+  }
+  .destinations__title {
+    font-size: 21px;
+  }
+  .destinations__link {
+    font-size: 16px;
+  }
+}
+
 .guides {
   margin-left: 30px;
 }
@@ -392,6 +561,21 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
   font-size: 36px;
   line-height: 50px;
+}
+
+@media screen and (max-width: 1024px) {
+  .guides__col-6 {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .guides__img {
+    max-width: 450px;
+  }
+  .guides__col-6 {
+    width: 100%;
+  }
 }
 
 .reviews {
@@ -460,12 +644,42 @@ h1, h2, h3, h4, h5, h6 {
   width: 380px;
   height: 490px;
   border-radius: 14px;
-  position: absolute;
 }
 
 .reviews__img--man {
-  padding-left: 150px;
   position: relative;
+  padding-left: 150px;
+}
+
+@media screen and (max-width: 1024px) {
+  .reviews__col-6 {
+    width: 50%;
+  }
+  .reviews__title {
+    padding-bottom: 50px;
+  }
+  .reviews__img {
+    padding: 0 0 10px 0;
+  }
+  .reviews__img--man {
+    padding-left: 100px;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .reviews {
+    padding: 100px 0;
+  }
+  .reviews__col-6 {
+    width: 100%;
+  }
+  .reviews__img--man {
+    padding-left: 0;
+  }
+  .reviews__image {
+    max-width: 350px;
+    max-height: 450px;
+  }
 }
 
 .trending__stories {
@@ -495,7 +709,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .trending__item {
-  max-width: 260px;
+  max-width: 280px;
 }
 
 .trending__suptitle {
@@ -529,6 +743,28 @@ h1, h2, h3, h4, h5, h6 {
   color: #ff8706;
   font-size: 20px;
   transition: 0.3s;
+}
+
+@media screen and (max-width: 1024px) {
+  .trending__images {
+    max-width: 230px;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .trending__title {
+    font-size: 26px;
+    line-height: 1.5;
+  }
+  .trending__link {
+    padding-bottom: 43px;
+  }
+  .trending__col-3 {
+    width: 50%;
+  }
+  .trending__images {
+    max-width: 160px;
+  }
 }
 
 .footer {
@@ -599,5 +835,11 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   height: 2px;
   background-color: #848484;
+}
+
+@media screen and (max-width: 414px) {
+  .footer__suptitle {
+    padding: 0;
+  }
 }
 /*# sourceMappingURL=index.css.map */

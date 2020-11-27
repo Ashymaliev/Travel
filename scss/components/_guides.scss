@@ -28,7 +28,29 @@
             
     }
        
-    
-    
 
+}
+
+
+@media screen and (max-width: 1024px){
+  .guides{
+
+    &__col-6{
+      width: 50%;
+    }
+  }
+}
+
+
+@media screen and (max-width:414px){
+
+  .guides{
+
+    &__img{
+      max-width: 450px;
+    }
+    &__col-6{
+      width: 100%;
+    }
+  }
 }

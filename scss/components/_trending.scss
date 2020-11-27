@@ -25,7 +25,7 @@
         width: 280px;
     }
     &__item{
-        max-width: 260px;
+        max-width: 280px;
     }
     &__suptitle{
         font-family: Inter;
@@ -60,4 +60,45 @@
         }
     }
  
+}
+
+
+
+@media screen and (max-width:1024px){
+	
+	.trending{
+        &__images {
+            max-width: 230px;
+        }
+    }
+
+}
+
+
+@media screen and (max-width:414px){
+	
+	.trending{
+
+        &__title{
+            font-size: 26px;
+            line-height: 1.5;
+        }
+        &__link{
+            padding-bottom: 43px;
+        }
+        &__col-3{
+            width: 50%;
+        }
+        &__images {
+            max-width: 160px;
+        }
+    }
+
+}
+
+
+@media screen and (max-width:320px){
+    .trending{
+        
+    }
 }

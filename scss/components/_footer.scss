@@ -57,3 +57,14 @@
         background-color:#848484;
     }
 }
+
+
+
+
+@media screen and (max-width:414px){
+    .footer{
+        &__suptitle{
+            padding: 0;
+        }
+    }
+}

@@ -60,10 +60,55 @@
         width: 380px;
         height: 490px;
         border-radius: 14px;
-        position: absolute;
+        
     }
     &__img--man{
+        position: relative;
        padding-left: 150px;
-       position: relative;
+       
     }
 }
+
+
+@media screen and (max-width: 1024px){
+    .reviews{
+  
+      &__col-6{
+        width: 50%;
+      }
+
+      &__title{
+        padding-bottom: 50px;
+      }
+
+      &__img{
+
+        padding: 0 0 10px 0;
+      }
+
+      &__img--man{
+          padding-left: 100px;
+      }
+    }
+  }
+
+
+  @media screen and (max-width: 414px){
+
+    .reviews{
+      padding: 100px 0;
+      &__col-6{
+        width: 100%;
+      }
+
+      &__img--man{
+        padding-left: 0;
+      }
+
+      &__image{
+        max-width: 350px;
+        max-height: 450px;
+      }
+
+    }
+  }

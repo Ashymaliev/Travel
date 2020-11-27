@@ -102,3 +102,42 @@ h1, h2, h3, h4, h5, h6 {
        
     }
 
+
+    @media screen and (max-width:1024px){
+        body{
+            padding: 0 10px;
+        }
+
+        .view{
+            display: flex;
+            &::before{
+                display: none;  
+            }
+            &::after{
+                display: none;
+            }
+        }
+    }
+
+
+    @media screen and (max-width:4145px){
+        body{
+            padding: 0 10px;
+        }
+
+      
+        .view{
+            line-height: 1;
+            display: flex;
+            &::before{
+                display: none;  
+            }
+            &::after{
+                display: none;
+            }
+        }
+
+        .btn--orange{
+            padding: 8px 25px;
+        }
+    }
