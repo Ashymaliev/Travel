@@ -499,8 +499,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media screen and (max-width: 768px) {
+  .destinations__top {
+    padding: 0 100px 50px 50px;
+  }
   .destinations__row {
-    padding-left: 80px;
+    padding: 0 60px;
   }
   .destinations__element {
     padding: 10px 10px;
@@ -514,6 +517,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media screen and (max-width: 414px) {
+  .destinations__top {
+    padding: 5px;
+  }
+  .destinations__row {
+    padding: 5px;
+  }
   .destinations__title {
     font-size: 26px;
     line-height: 1.5;
@@ -533,6 +542,15 @@ h1, h2, h3, h4, h5, h6 {
   }
   .destinations__element {
     display: none;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .destinations__top {
+    padding: 10px 0;
+  }
+  .destinations__row {
+    padding: 5px;
   }
 }
 
@@ -807,6 +825,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media screen and (max-width: 414px) {
+  .trending__stories {
+    padding-left: 10px;
+  }
   .trending__title {
     font-size: 26px;
     line-height: 1.5;
@@ -819,6 +840,15 @@ h1, h2, h3, h4, h5, h6 {
   }
   .trending__images {
     max-width: 160px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .trending__top {
+    padding: 5px;
+  }
+  .trending__stories {
+    padding-left: 5px;
   }
 }
 
