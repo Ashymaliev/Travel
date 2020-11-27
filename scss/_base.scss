@@ -9,7 +9,7 @@ li {
 
 }
 
-a {
+a,span,p{
     text-decoration: none;
     cursor: pointer;
     margin: 0;
@@ -22,9 +22,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-span,p {
-    cursor: pointer;
-}
 
 .row {
     display: flex;
@@ -101,3 +98,86 @@ span,p {
 p:hover span{
     top: -10px;
 }
+    .item{
+        max-width: 450px;
+    }
+
+    .view{
+        position: relative;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 60px;
+        color: $color-orange;
+
+        &::before{
+            content:'';
+            position: absolute;
+            width: 9px;   
+            border: 1px solid #FB8F1D; 
+            top: 44%;
+            right: -30%;
+            transform: rotate(210deg);  
+
+        
+        }
+        &::after{
+            content:'';
+            position: absolute;
+            width: 9px;
+            border: 1px solid #FB8F1D;
+            top: 53%;
+            right: -30%;
+            transform: rotate(-25deg);
+
+        }
+     
+        &:hover{
+            color:  #ff8706;
+            font-size: 20px;
+            transition: 0.3s;
+        }
+
+       
+    }
+
+
+    @media screen and (max-width:1024px){
+        body{
+            padding: 0 10px;
+        }
+
+        .view{
+            display: flex;
+            &::before{
+                display: none;  
+            }
+            &::after{
+                display: none;
+            }
+        }
+    }
+
+
+    @media screen and (max-width:4145px){
+        body{
+            padding: 0 10px;
+        }
+
+      
+        .view{
+            line-height: 1;
+            display: flex;
+            &::before{
+                display: none;  
+            }
+            &::after{
+                display: none;
+            }
+        }
+
+        .btn--orange{
+            padding: 8px 25px;
+        }
+    }

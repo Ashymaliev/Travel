@@ -18,12 +18,54 @@ padding: 0 0 260px 0;
         line-height: 50px;
     }
 
-    &__button{
-        margin-top: 38px;
-
-    }
 
     &__element{
         padding: 0 0 20px 320px;
     }
+}
+
+
+
+
+@media screen and (max-width:1024px){
+    .explore{
+     
+        &__image{
+            max-width: 520px;
+        }
+
+        &__col-6{
+            width: 50%;
+        }
+    }
+       
+}
+
+@media screen and (max-width:768px){
+    .explore{
+        &__image{
+            width: 120%;
+            padding-top: 100px;
+        }
+    }
+}
+
+@media screen and (max-width:414px){
+
+    .explore{
+
+        padding: 10px 0;
+        &__image{
+            max-width: 420px;
+        }
+
+        &__col-6{
+            width: 100%;
+        }
+
+        &__item{
+            padding: 10px 10px;
+        }
+    }
+   
 }

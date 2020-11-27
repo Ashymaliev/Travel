@@ -3,35 +3,42 @@
     &__row{
         display: flex;
     }
-    &__item{
+    &__title{
         padding-bottom: 140px;
         font-family: Playfair Display;
         font-weight: bold;
         font-size: 50px;
     }
-    &__link{
+    &__text{
         font-family: Mulish;
         font-size: 24px;
         line-height: 36px;
         padding: 30px 0 0 0;
     }
+    &__name{
+        padding: 60px 0;
+    }
     &__edward{
-        font-family: Playfair Display;
-        font-style: normal;
+        font-family: Inter;
         font-weight: bold;
-        font-size: 36px;
-        line-height: 50px;
+        font-size: 22px;
+        line-height: 48px;
     }
     &__founder{
        font-family: Inter;
-       font-style: normal;
        font-weight: normal;
        font-size: 18px;
-       line-height: 48px;
+       color: rgba(0, 0, 0, 0.85);
+       mix-blend-mode: normal;
     }
     &__img--icon{
         position: relative;
     }
+
+    &__star{
+      padding-right: 15px;
+    }
+
     &__icon1{
         width: 50px;
         height: 50px;
@@ -50,7 +57,7 @@
     &__img--man{
         margin-left: 150px;
     }
-    &__title{
+    &__item{
         padding: 100px 0 100px 0;
     }
     &__images{

@@ -70,7 +70,6 @@
             right: 16%;
             transform: rotate(45deg);
         }
-
         &::after{
             content:'';
             position: absolute;
@@ -112,6 +111,17 @@
 	
 	.hero{
 
+        &__row{
+            padding-bottom: 150px;
+        }
+        &__tour{
+            justify-content: center;
+        }
+
+        &__selector{
+            width: 200px;
+            height: 45px;
+        }
         &__item{
             text-align: center;
         }
@@ -119,7 +129,72 @@
         &__title{
             font-size: 48px;
         }
+
+        &__subtitle{
+
+           &::before{
+               content:'';
+               left: 35%;
+           }
+        }
+
+        &__image {
+            display: none;
+        }
+    
     }
 
 }
 
+@media screen and (max-width:768px){
+
+    .hero{
+    
+    }
+}
+
+@media screen and (max-width:414px)
+{
+ .hero{
+    &__row{
+        padding-bottom: 20px;
+    }
+    &__select{
+        margin: 0 15px 15px 0;
+        &::before{
+            width: 8.5px;
+        }
+
+        &::after{
+            width: 8.5px;
+        }
+    }
+
+    &__selector{
+        width: 150px;
+        height: 35px;    
+    }
+
+ }
+   
+}
+
+@media screen and (max-width:320px){
+    .hero{
+
+        &__select{
+            margin: 0 15px 15px 0;
+            &::before{
+                width: 5.5px;
+            }
+    
+            &::after{
+                width: 5.5px;
+            }
+        }
+        &__selector{
+            width: 125px;
+            height: 30px;
+        }
+    }
+}
